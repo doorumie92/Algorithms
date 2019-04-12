@@ -15,6 +15,7 @@ int main()
 			cin >> stick[i];
 			total += stick[i];
 		}
+
 		if (total == 0)
 			score[j] = 'D';
 		else if (total == 1)
