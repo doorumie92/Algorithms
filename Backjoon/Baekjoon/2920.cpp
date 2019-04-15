@@ -10,20 +10,20 @@ int main()
 	{
 		cin >> input[i];
 	}
-	for (int i = 0; i < 8; i++)
+	for (int i = 0; i < 7; i++)
 	{
 		if (input[i] > input[i + 1])
 			count++;
 		else
 			count--;
-	}
-	if (count == 0)
-		cout << "mixed";
-	else if (count == 8)
-		cout << "descending";
-	else
-		cout << "ascending";
 
-	system("pause");
+	}
+	if (count == -7)
+		cout << "ascending" << endl;
+	else if (count == 7)
+		cout << "descending" << endl;
+	else
+		cout << "mixed"<<endl;
+
 	return 0;
 }
