@@ -28,7 +28,7 @@ int main()
 				count += 1;
 		}
 		Percentage = (count / (double)StudentNum) * 100;
-		printf("%.3f%%",Percentage);
+		printf("%.3f%%\n",Percentage);
 		count = 0.0;
 		Total = 0.0;
 		Avg = 0.0;
