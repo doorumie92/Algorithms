@@ -16,7 +16,6 @@ int main()
         if(string[i]=='\0')
             break;
     }
-    cout << i << endl;
     cout <<count-1 << endl;
     return 0;
 }
