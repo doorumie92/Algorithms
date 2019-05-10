@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+    cin.sync_with_stdio(false);
     int inputCount=0;
     cin >> inputCount;
 
@@ -24,6 +25,7 @@ int main()
     }
     for(int i=0;i<inputCount;i++)
     {
-        cout<<v[i].first<<","<<v[i].second<<endl;
+        cout<<v[i].first<<" "<<v[i].second<<"\n";
     }
+    return 0;
 }
