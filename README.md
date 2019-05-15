@@ -1,2 +1,2 @@
-# BaekjoonPractice
-Algorithms study
+# Algorithms Study
+1. BaekJoon
