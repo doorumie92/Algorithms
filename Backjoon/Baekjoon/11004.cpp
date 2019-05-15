@@ -4,6 +4,8 @@ using namespace std;
 
 int main()
 {
+    cin.tie(NULL);
+    ios_base::sync_with_stdio(false);
     int inputSize=0;
     int inputK=0;
     cin >> inputSize >> inputK;
