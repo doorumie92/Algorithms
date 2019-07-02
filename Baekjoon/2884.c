@@ -9,12 +9,19 @@ int main()
 
     totalM = (timeH * 60) + timeM;
 
-    totalM -= 45;
-
-    timeH = totalM/60;
-    timeM = totalM%60;
+    if(totalM < 45)
+    {
+        timeH = 23;
+        timeM = 60 - (45-totalM);
+    }
+    else
+    {
+        totalM -= 45;
+        timeH = totalM/60;
+        timeM = totalM%60;
+    }
 
     printf("%d %d\n",timeH,timeM);
-        
+
     return 0;
 }
