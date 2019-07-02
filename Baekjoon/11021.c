@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    int count;
+
+    scanf("%d",&count);
+
+    for(int i =0; i < count; i++)
+    {
+        int a,b;
+        scanf("%d",&a);
+        scanf("%d",&b);
+
+        printf("Case #%d: %d\n",i+1,a+b);
+    }
+    return 0;
+}
